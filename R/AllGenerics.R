@@ -188,10 +188,11 @@ setGeneric("getZero", function(object) standardGeneric("getZero"))
 #' exponentialmodelmoments,binomialmodelmoments-class
 setGeneric("generateMoments", function(object) standardGeneric("generateMoments"))
 
+#' getB is ...
 #' @export
 #' @docType methods
 #' @keywords internal
-#' @aliases getB,cmodelmoments-class,exponentialmodelmoments-class
+#' @seealso [cmodelmoments-class], [exponentialmodelmoments-class]
 setGeneric("getB", function(object) standardGeneric("getB"))
 
 #' @export
